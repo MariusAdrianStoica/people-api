@@ -13,8 +13,8 @@ public class InitData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        repository.save(new Person("Åsa","Jonsoon","asa.Jonsson@lexicon.se","C# Teacher"));
-        repository.save(new Person("Simon","Elbrink","simon.elbrink@lexicon.se","Java Teacher"));
-        repository.save(new Person("Mehrdad","Javan","mehrdad.javan@lexicon.se","Java Teacher"));
+        repository.save(new Person("Test1","test1","test1@test.se","TeamLeader", 123456789));
+        repository.save(new Person("Test2","test2","test2@test.se","Hunter", 987654321));
+        repository.save(new Person("Test3","test3","test3@test.se","Hunter", 111111111));
     }
 }

@@ -25,6 +25,8 @@ public class PersonDto {
     @Size(min = 2, max = 80, message = "Email length should be between 2-80")
     private String email;
     private String title;
+    
+    private double tel;
 
 
 }
